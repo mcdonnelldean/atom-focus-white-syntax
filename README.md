@@ -7,4 +7,4 @@ For now, clone the repo and apm link to symlink into your atom folder. Package c
 ## License
 Licensed under [MIT](./LICENSE) 2015 Dean McDonnell
 
-_Special thanks to [nearForm](http://nearform.com) for encouraging me to open source all the things, and allowing me the time to do so._
+_Sponsored by [nearForm](http://nearform.com), who encourage me to open source all the things!_

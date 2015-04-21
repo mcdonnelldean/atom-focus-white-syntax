@@ -1,0 +1,11 @@
+{
+  "name": "focus-white",
+  "theme": "syntax",
+  "version": "0.1",
+  "description": "A light syntax theme",
+  "repository": "https://github.com/mcdonnelldean/atom-focus-white",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}

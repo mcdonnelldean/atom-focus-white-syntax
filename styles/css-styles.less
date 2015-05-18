@@ -1,6 +1,11 @@
 .css {
+  color: black;
+
+  .html,
+  .import,
   .attribute-name {
-      font-weight: bold;
+    font-weight: bold;
+    color: black;
   }
 
   .comment {
@@ -8,7 +13,15 @@
     font-style: italic;
   }
 
+  .string,
   .constant {
     color: @red;
+  }
+
+  .property-value {
+    .variable,
+    .constant {
+      color: @red;
+    }
   }
 }

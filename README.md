@@ -67,10 +67,10 @@ Licensed under [MIT](./LICENSE) 2015 Dean McDonnell
 
 [use-with-badge]: https://img.shields.io/badge/use%20with%20-atom.io-green.svg?style=flat-square
 [use-with-url]: https://atom.io
-[git-badge]: https://img.shields.io/github/release/mcdonnelldean/atom-focus-white.svg?style=flat-square
-[git-url]: https://github.com/mcdonnelldean/atom-focus-white/releases
-[apm-badge]: https://img.shields.io/apm/v/atom-focus-white.svg?style=flat-square
-[apm-url]: https://atom.io/packages/atom-focus-white
+[git-badge]: https://img.shields.io/github/release/mcdonnelldean/atom-focus-white-syntax.svg?style=flat-square
+[git-url]: https://github.com/mcdonnelldean/atom-focus-white-syntax/releases
+[apm-badge]: https://img.shields.io/apm/v/atom-focus-white-syntax.svg?style=flat-square
+[apm-url]: https://atom.io/packages/atom-focus-white-syntax
 [nearform-badge]: https://img.shields.io/badge/sponsored%20by-nearForm-red.svg?style=flat-square
 [nearform-url]: http://nearform.com
 

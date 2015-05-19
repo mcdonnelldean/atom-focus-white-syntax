@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.0.1",
   "description": "A black text on white background theme for Atom.io, with hyper minimal coloring.",
-  "repository": "https://github.com/mcdonnelldean/atom-focus-white",
+  "repository": "https://github.com/mcdonnelldean/atom-focus-white-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.40.0"

@@ -18,13 +18,13 @@ In order to obtain the source for Focus White we first suggest you fork it on Gi
 done, navigate to a suitable directory on your machine and run:
 
 ```
-git clone https://github.com/<USERNAME>/atom-focus-white.git
+git clone https://github.com/<USERNAME>/atom-focus-white-syntax.git
 ```
 
-This will pull your fork into a new folder `/atom-focus-white`, move to this directory using:
+This will pull your fork into a new folder `/atom-focus-white-syntax`, move to this directory using:
 
 ```
-cd atom-focus-white
+cd atom-focus-white-syntax
 ```
 
 You now have access to your own local copy of Focus White to do as you please with.
@@ -81,4 +81,4 @@ pull request, it makes reviewing it easier.
 ## License
 Licensed under [MIT](./LICENSE) 2015 Dean McDonnell
 
-[Issues Section]: https://github.com/mcdonnelldean/atom-focus-white/issues
+[Issues Section]: https://github.com/mcdonnelldean/atom-focus-white-syntax/issues

@@ -1,27 +1,48 @@
+// Base colors
+@black: black;
+@green: green;
+@red: red;
+@white: white;
+@grey: #eee;
+
 // General colors
-@syntax-text-color: black;
-@syntax-cursor-color: 555;
-@syntax-selection-color: #afc4da;
-@syntax-selection-flash-color: #69c;
-@syntax-background-color: white;
+@syntax-text-color: @black;
+@syntax-cursor-color: @black;
+@syntax-selection-color: @grey;
+@syntax-selection-flash-color: @grey;
+@syntax-background-color: @white;
 
 // Guide colors
-@syntax-wrap-guide-color: rgba(85, 85, 85, .2);
-@syntax-indent-guide-color: rgba(85, 85, 85, .2);
-@syntax-invisible-character-color: rgba(85, 85, 85, .2);
+@syntax-wrap-guide-color: #ccc;
+@syntax-indent-guide-color: #ccc;
+@syntax-invisible-character-color: #ccc;
 
 // For find and replace markers
-@syntax-result-marker-color: #999;
-@syntax-result-marker-color-selected: black;
+@syntax-result-marker-color: @grey;
+@syntax-result-marker-color-selected: @grey;
 
 // Gutter colors
-@syntax-gutter-text-color: @syntax-text-color;
-@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
-@syntax-gutter-background-color: @syntax-background-color;
-@syntax-gutter-background-color-selected: @syntax-background-color;
+@syntax-gutter-text-color: @black;
+@syntax-gutter-text-color-selected: @black;
+@syntax-gutter-background-color: @white;
+@syntax-gutter-background-color-selected: @grey;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: #96CBFE;
-@syntax-color-added: #718C00;
-@syntax-color-modified: #ff982d;
-@syntax-color-removed: #D14;
+@syntax-color-added: green;
+@syntax-color-modified: orange;
+@syntax-color-removed: red;
+@syntax-color-renamed: blue;
+
+// For language entity colors
+@syntax-color-variable: @black;
+@syntax-color-constant: @black;
+@syntax-color-property: @black;
+@syntax-color-value: @black;
+@syntax-color-function: @black;
+@syntax-color-method: @syntax-color-function;
+@syntax-color-class: @black;
+@syntax-color-keyword: @black;
+@syntax-color-tag: @black;
+@syntax-color-attribute: @black;
+@syntax-color-import: @black;
+@syntax-color-snippet: @black;

@@ -1,8 +1,8 @@
 {
   "name": "focus-white",
   "theme": "syntax",
-  "version": "0.1",
-  "description": "A light syntax theme",
+  "version": "0.0.1",
+  "description": "A black text on white background theme for Atom.io, with hyper minimal coloring.",
   "repository": "https://github.com/mcdonnelldean/atom-focus-white",
   "license": "MIT",
   "engines": {

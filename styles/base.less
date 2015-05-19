@@ -1,0 +1,144 @@
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  .invisible-character{
+    color: @syntax-invisible-character-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+  }
+
+  .gutter .line-number {
+    opacity: 1;
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @red;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .line-number.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+}
+
+.bracket-matcher .region {
+  background-color: @grey;
+  opacity: 0.5;
+}
+
+.comment {
+  color: @green;
+  font-style: italic;
+}
+
+.entity {
+  color: @black;
+
+  .punctuation {
+    color: @black
+  }
+}
+
+.keyword {
+  color: @black;
+
+  &.other {
+    &.special-method {
+      color: black;
+    }
+  }
+}
+
+.storage.type,
+.storage.modifier {
+  color: @black;
+}
+
+.constant {
+  color: @syntax-color-constant;
+
+  &.numeric,
+  &.boolean,
+  &.symbol, &.symbol .punctuation {
+    color: @black;
+  }
+
+  &.symbol.hashkey {
+    color: @black;
+
+    .punctuation {
+      color: @black;
+    }
+  }
+}
+
+.delimiter, .brace {
+  color: @black;
+}
+
+.delimiter.period {
+  color: @black;
+}
+
+.invalid.deprecated {
+  text-decoration: underline;
+  color: @red;
+}
+
+.method.name {
+  color: @black;
+}
+.property-name {
+  color: @syntax-color-property;
+}
+
+.invalid.illegal,
+.operator.assignment,
+.parameter,
+.property-value {
+  .unit {
+    color: @red;
+  }
+}
+
+.string {
+  color: @red;
+
+  .constant.character.escape,
+  .punctuation.string {
+    color: @red;
+  }
+
+  &.regexp {
+    color: @red;
+
+    .string.regexp.arbitrary-repetition {
+      color: @red;
+    }
+  }
+}
+
+.variable {
+  color: @syntax-color-variable;
+
+  &.constant {
+    color: @syntax-color-constant;
+  }
+}

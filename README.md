@@ -8,6 +8,8 @@ Focus White is a hyper minimal syntax theme for [Atom.io][] which removes superf
 favor of more focused highlighting that helps draw the eye to read instead of just acknowledging keywords by
 color.
 
+![js-sample][]
+
 ## How To Install
 It is recommended that packages are installed via APM or Atom's package management interface. Packages should
 only be installed manually when you want to modify, debug, or otherwise change the package itself. Manually
@@ -49,9 +51,12 @@ installed packages will not take advantage of Atom's updater mechanism.
 Language support is on a per needed basis. If you need a particular language to be supported, create an
 issues with some sample code to use and I will include support for it with the next feature update.
 
-### Javascript
+- ##### Javascript
+- ##### CSS / LESS / SCSS
+- ##### Markdown
+- ##### JSON
 
-![js-sample][]
+
 
 Note that this theme styles the full editor pane, that means the whole pane, including gutters and
 gutter symbols will be overridden for styling. This is in line with Atom's best practices for Syntax vs

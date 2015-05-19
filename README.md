@@ -51,12 +51,10 @@ installed packages will not take advantage of Atom's updater mechanism.
 Language support is on a per needed basis. If you need a particular language to be supported, create an
 issues with some sample code to use and I will include support for it with the next feature update.
 
-- ##### Javascript
-- ##### CSS / LESS / SCSS
-- ##### Markdown
-- ##### JSON
-
-
+- Javascript
+- CSS / LESS / SCSS
+- Markdown
+- JSON
 
 Note that this theme styles the full editor pane, that means the whole pane, including gutters and
 gutter symbols will be overridden for styling. This is in line with Atom's best practices for Syntax vs

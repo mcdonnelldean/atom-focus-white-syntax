@@ -1,4 +1,4 @@
-atom-text-editor, :host {
+atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -43,102 +43,102 @@ atom-text-editor, :host {
   opacity: 0.5;
 }
 
-.comment {
+.syntax--comment {
   color: @green;
   font-style: italic;
 }
 
-.entity {
+.syntax--entity {
   color: @black;
 
-  .punctuation {
+  .syntax--punctuation {
     color: @black
   }
 }
 
-.keyword {
+.syntax--keyword {
   color: @black;
 
-  &.other {
-    &.special-method {
+  &.syntax--other {
+    &.syntax--special-method {
       color: black;
     }
   }
 }
 
-.storage.type,
-.storage.modifier {
+.syntax--storage.syntax--type,
+.syntax--storage.syntax--modifier {
   color: @black;
 }
 
-.constant {
+.syntax--constant {
   color: @syntax-color-constant;
 
-  &.numeric,
-  &.boolean,
-  &.symbol, &.symbol .punctuation {
+  &.syntax--numeric,
+  &.syntax--boolean,
+  &.syntax--symbol, &.syntax--symbol .syntax--punctuation {
     color: @black;
   }
 
-  &.symbol.hashkey {
+  &.syntax--symbol.syntax--hashkey {
     color: @black;
 
-    .punctuation {
+    .syntax--punctuation {
       color: @black;
     }
   }
 }
 
-.delimiter, .brace {
+.syntax--delimiter, .syntax--brace {
   color: @black;
 }
 
-.delimiter.period {
+.syntax--delimiter.syntax--period {
   color: @black;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   text-decoration: underline;
   color: @red;
 }
 
-.method.name {
+.syntax--method.syntax--name {
   color: @black;
 }
-.property-name {
+.syntax--property-name {
   color: @syntax-color-property;
 }
 
-.invalid.illegal,
-.operator.assignment,
-.parameter,
-.property-value {
-  .unit {
+.syntax--invalid.syntax--illegal,
+.syntax--operator.syntax--assignment,
+.syntax--parameter,
+.syntax--property-value {
+  .syntax--unit {
     color: @red;
   }
 }
 
-.string {
+.syntax--string {
   color: @red;
 
-  .constant.character.escape,
-  .punctuation.string {
+  .syntax--constant.syntax--character.syntax--escape,
+  .syntax--punctuation.syntax--string {
     color: @red;
   }
 
-  &.regexp {
+  &.syntax--regexp {
     color: @red;
 
-    .string.regexp.arbitrary-repetition {
+    .syntax--string.syntax--regexp.syntax--arbitrary-repetition {
       color: @red;
     }
   }
 }
 
-.variable {
+.syntax--variable {
   color: @syntax-color-variable;
 
-  &.constant {
+  &.syntax--constant {
     color: @syntax-color-constant;
   }
 }
